@@ -25,7 +25,11 @@ void main(void)
 	printf("\n");
 
 	// Printing the password
-	printf("Password = %s",prime);
+	printf("Password = ");
+	for (int j = 0; j < len; j++)
+	{
+		printf("%c",prime[j]);
+	}
 	
 	// Asking to exit and regenerate the password
 	printf("\n\nEnter 0 to exit...");
